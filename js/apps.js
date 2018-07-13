@@ -15,7 +15,6 @@ search.addEventListener('keyup', () => {
     } else {
       photoNotes[i].style.display="none";
     }
-    console.log();
   }
 });
 
