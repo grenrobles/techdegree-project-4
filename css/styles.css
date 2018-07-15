@@ -11,6 +11,11 @@
   font-size: 12px;
 }
 
+.gallery img {
+  margin: 1em auto 1em auto;
+  display: block;
+}
+
 #searchbar {
   width: 12em;
   display: block;
@@ -21,29 +26,24 @@
   font-size:17px;
 }
 
-.gallery img {
-  margin: 1em auto 1em auto;
-  display: block;
-}
-
 ::placeholder {
   color: #BDC3C7;
   font-size: 17px;
 }
 
 
-/** MEDIA QUERIES **/
+/** Media Queries **/
 
 @media(min-width: 768px){
-
-  .gallery img {
-    display: inline-block;
-    margin: 1em;
-  }
 
   .gallery {
     max-width: 30em;
     margin: auto;
+  }
+
+  .gallery img {
+    display: inline-block;
+    margin: 1em;
   }
 
   #searchbar {
@@ -51,7 +51,7 @@
     margin-bottom: 0.5em;
   }
 
-} /** 768PX BREAKPOINT END **/
+} /** 768px Breakpoint Close **/
 
 @media(min-width: 1024px){
 
@@ -63,4 +63,4 @@
     width: 27em;
   }
 
-} /** 1024PX BREAKPOINT END **/
+} /** 1024px Breakpoint Close **/
